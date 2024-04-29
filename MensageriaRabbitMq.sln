@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MensageriaRabbitMq.Customers.API", "MensageriaRabbitMq.API\MensageriaRabbitMq.Customers.API.csproj", "{267A9586-3C09-41D0-AA89-D260A7883CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MensageriaRabbitMq.Marketing.API", "MensageriaRabbitMq.Marketing.API\MensageriaRabbitMq.Marketing.API.csproj", "{AE845104-4DA8-492C-89AB-C0B4D800FA52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingEvents.Shared", "MessagingEvents.Shared\MessagingEvents.Shared.csproj", "{3E5FB9AC-F0F6-4296-B7CA-60B2991C9288}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267A9586-3C09-41D0-AA89-D260A7883CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267A9586-3C09-41D0-AA89-D260A7883CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267A9586-3C09-41D0-AA89-D260A7883CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267A9586-3C09-41D0-AA89-D260A7883CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE845104-4DA8-492C-89AB-C0B4D800FA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE845104-4DA8-492C-89AB-C0B4D800FA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE845104-4DA8-492C-89AB-C0B4D800FA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE845104-4DA8-492C-89AB-C0B4D800FA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5FB9AC-F0F6-4296-B7CA-60B2991C9288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5FB9AC-F0F6-4296-B7CA-60B2991C9288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5FB9AC-F0F6-4296-B7CA-60B2991C9288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5FB9AC-F0F6-4296-B7CA-60B2991C9288}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFC49B36-7933-4B9B-A850-6EC849607497}
+	EndGlobalSection
+EndGlobal
