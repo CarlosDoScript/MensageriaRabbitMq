@@ -1,6 +1,8 @@
+using MensageriaRabbitMq.Marketing.API.Subscribers;
+
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.AddHostedService<CustomerCreatedSubscriber>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
